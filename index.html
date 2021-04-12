@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> 7cs | homepage</title>
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="./css/leaflet.css">
+		<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header id="navigation">
+			<nav class="header-nav">
+				<section class="logo">
+					<a href="./index.html"><img src="./images/logo3.png" alt="Logo of 7cs"></a>
+				</section>
+				<section class="search-bar">
+					<section class="search-bar-01">
+						<form action="#" role="search-by-reefID" id="search-by-reef" method="GET">
+							<label for="search"></label>
+							<input type="text" name="reefID" id="search-by-reefID" placeholder="Search by unique reefID..." >							
+						</form>
+					</section>
+				</section>		
+				<li class="nav-button">
+					<button type="submit" class="button" id="Guide">
+						<i class="fas fa-question-circle" id="button1"></i>
+					</button>
+					<button>
+						<a href = "information.html"><i class="fas fa-book" id="icon"></i></a>
+					</button>
+				</li>
+			</nav>
+	    </header>
+
+		<div id="infor">
+			<div id="content">
+				<p id="title">Guide</p>
+				<p id="guidelist">
+					1. Click <i class="fas fa-map-marker-alt"></i> to get information of predicated Water level.
+					<br>
+					2. Click blue area to get reef information. 
+					<br>
+					3. On the popup window, click add/cancel button to plan the trip and generate the route.
+					<br>
+					4. Input at least 2 digits of unique ID in the search bar to popup related information.
+					<br>
+					5. Click <i class="fas fa-book" class="intro-icon"></i> to reopen Guide.
+					<br>
+					6. Click <i class="fas fa-question-circle" class="intro-icon"></i> to get coral reef information.
+					<br>
+					7. Click logo to refresh website.
+				</p>
+				<button class="button1" type="button"> <span>Continue </span> </button>
+			</div>
+		</div>
+
+		<article id="map"></article>
+		
+		<footer id="bottom">
+			<nav class="footer-01">
+				<ul>
+					<li>
+						<a href="reference.html">Reference</a>
+					</li>
+				</ul>
+			</nav>
+
+			<section class="footer-02">
+				<p>Copyright © 2020 7cs by Team 7. All rights reserved.</p>
+			</section>
+	
+		</footer>
+		
+		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/leaflet.js"></script>
+		<script src="./js/script.js"></script>		
+		<script src="https://kit.fontawesome.com/967bdee1d4.js" crossorigin="anonymous"></script>
+		
+	</body>
+</html>

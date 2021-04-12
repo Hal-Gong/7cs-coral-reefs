@@ -1,0 +1,146 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type:none;
+}
+
+/* body */
+body{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/pxfuel.com.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* login form */
+.login-form-1 h1{
+    color: aliceblue;
+    font-size: 70px;
+    font-family: 'Courgette', cursive;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-shadow:4px 4px 4px rgb(37, 37, 37);
+}
+
+.login-form-1{
+    display: block;
+    height: auto;
+    float: left;
+    width: 70%;
+    margin-left: 15%;
+    padding: 40px;
+    background: rgb(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(53, 53, 53, 0.6), 0 6px 20px 0 rgba(41, 41, 41, 0.6);
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.login-form-1 ul{
+    padding-left: 30px;
+}
+.login-form-1 li{
+    padding-bottom: 7px;
+}
+
+.line{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login-form-1 li a{
+    color: rgb(215, 244, 252);
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    text-shadow:1px 1px 1px rgb(75, 66, 52);
+}
+
+.login-form-1 li a:hover{
+    color:rgb(255, 255, 255);
+    font-size: 23px;
+    text-shadow:2px 2px 2px  rgb(54, 54, 54);
+    transition: 0.3s;
+}
+
+/* main */
+.main{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.main h1{
+    font-size: 30px;
+    font-family:  'Courgette', cursive;
+    text-align: left;
+    color: rgb(200, 246, 252);
+    text-shadow:3px 3px 3px rgb(43, 43, 43);
+}
+
+.main p{
+    padding-left: 25px;
+    color:#ffffff;
+    font-family: 'EB Garamond', serif;
+    text-shadow:1px 1px 1px rgb(56, 56, 56);
+    
+}
+
+.main a{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(171, 198, 199);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    margin-left: 85%;
+}
+
+.main a:hover {
+    background-color: #7687a5;
+    transition: 0.4s;
+}
+
+.main a:active {
+    background-color: #2a5f2c;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    height: auto;
+    display: block;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+.footer h4{
+    font-size: 20px;
+    color: grey;
+    text-align: center  ;
+}
+
+.footer p{
+    font-size: 13px;
+    color: grey;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.footer i{
+    font-size: 30px;
+    padding:5px 5px 5px 5px;
+}
+
+
